@@ -74,6 +74,7 @@ body {
     background-color: black;
     color: antiquewhite;
     cursor: pointer;
+    max-width: 250px;
   }
   .pinkTee {
     border: none;
@@ -88,6 +89,7 @@ body {
     background-color: rgb(148, 94, 144);
     color: antiquewhite;
     cursor: pointer;
+    max-width: 250px;
   }
   .footerList {
     list-style: none;
@@ -624,6 +626,9 @@ body {
   .infoImgDesctop {
     display: none;
   }
+  .teeBack{
+    margin-left: -10px;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1900px) {
@@ -928,6 +933,8 @@ body {
     list-style: none;
     display: flex;
     gap: 50px;
+    max-width: 1000px;
+    flex-wrap: wrap;
   }
 
   /* Privacy Policy */
@@ -1029,5 +1036,8 @@ body {
   .modalImg{
     width: 400px;
     height: 400px;
+  }
+  .teeBack{
+    margin-left: -10px;
   }
 }
